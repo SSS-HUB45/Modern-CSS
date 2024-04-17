@@ -1,0 +1,27 @@
+h1{
+    /* border-style: dashed;
+    border-style: dotted;
+    border-style: solid;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: inset;
+    border-style: outset;
+    border-style: none;
+    border-style: hidden;
+    border-width: 10px;
+
+    border: 5px solid saddlebrown;
+    border-radius: 5px; */
+
+    border-color: burlywood;
+    border-left: 5px solid chocolate;
+    border-right: 5px solid chartreuse;
+    border-top: 5px solid cyan;
+    border-bottom: 5px solid crimson;
+
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-top-style: groove;
+    border-bottom-style: double;
+}

@@ -1,0 +1,31 @@
+/* 
+h1 => Selector
+color => Property
+red => Value 
+* => Universal Selector
+. => Class Selector
+# => ID Selector
+, => Group
+*/
+/* CSS Comments*/
+h1{
+    color: navy; /*=> Declaration*/
+    font-size: 30px;
+}
+p{
+    color: chocolate;
+    font-size: 20px;
+}
+div{
+    width: 200px;
+    height: 200px;
+}
+div p{
+    color: black;
+}
+.first-div{
+    background: darkorange;
+}
+.first-div p{
+    color: navy;
+}

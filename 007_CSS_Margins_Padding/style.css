@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: blueviolet;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+    padding: 20px;
+    margin: 20px auto;
+}
+/* .new{
+    background: salmon;
+    margin-top: 15px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+} */
+.new{
+    background: burlywood;
+    margin: 25px 30px;
+    padding: 15px 15px;
+}

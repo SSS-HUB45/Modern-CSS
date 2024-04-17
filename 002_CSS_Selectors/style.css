@@ -1,0 +1,44 @@
+/* 
+h1 => Selector
+color => Property
+red => Value 
+* => Universal Selector
+. => Class Selector
+# => ID Selector
+, => Group
+*/
+*{
+    margin: 0;
+    padding: 0;
+    color: crimson;
+}
+h1{
+    color: navy; /*=> Declaration*/
+    font-size: 30px;
+}
+p{
+    color: chocolate;
+    font-size: 20px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: chartreuse;
+    margin-bottom: 20px;
+}
+div p{
+    color: black;
+}
+.first-div{
+    background: darkorange;
+}
+.first-div p{
+    color: navy;
+}
+.third{
+    color: orangered;
+    text-align: right;
+}
+#second-div, #second-div-1, .first-div{
+    width: 300px;
+}

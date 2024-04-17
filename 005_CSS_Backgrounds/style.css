@@ -1,0 +1,18 @@
+body{
+    background: url(my_bg.jpg);
+    background-attachment: fixed;
+}
+div{
+    background-color: rgba(173, 216, 230, 0.6);
+    background-image: url(my_bg_2.jpg);
+    color: orangered;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    /* background-size: 150px 150px; */
+    /* background-repeat: no-repeat;
+    background-position: center; */
+
+    /* Shorthand */
+    background: #6495ed url(my_bg_1.jpg) no-repeat center;
+}
