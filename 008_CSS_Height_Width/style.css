@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* html, body{
+    height: 100%;
+} */
+html{
+    height: 50%;
+}
+body{
+    height: inherit;
+}
+.main{
+    background: brown;
+    /* color: #fff; */
+    width: 92%;
+    margin: 10px auto;
+    padding: 2%;
+    /* max-width: 1140px; */
+    /* min-width: 600px; */
+    height: initial;
+}
