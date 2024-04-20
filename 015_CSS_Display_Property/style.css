@@ -1,0 +1,11 @@
+h1, p, span, h3, a{
+    background: coral;
+}
+a.btn{
+    background: brown;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+    font-weight: bold;
+}

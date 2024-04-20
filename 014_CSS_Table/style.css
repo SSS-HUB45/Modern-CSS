@@ -1,0 +1,31 @@
+table, th, td{
+    border: 1px solid chocolate;
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+table{
+    width: 100%;
+}
+th{
+    background: chocolate;
+    border: 1px solid chocolate;
+    color: #fff;
+    height: 50px;
+    text-align: left;
+}
+td{
+    background: brown;
+    border: 1px solid grey;
+    color: #fff;
+    height: 30px;
+    vertical-align: center;
+}
+tr:hover th, tr:hover td{
+    background: orangered;
+}
+div{
+    width: 550px;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: scroll;
+}
