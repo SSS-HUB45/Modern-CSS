@@ -1,0 +1,58 @@
+.one{
+    background: darkolivegreen;
+    color: burlywood;
+    padding: 20px 1%;
+    width: 30%;
+    margin-bottom: 20px;
+    float: left;
+    margin-left: 5px;
+    /* overflow: hidden; */
+}
+img{
+    /* float: right; */
+    float: inherit;
+    margin: 0 auto;
+    display: block;
+}
+.parent{
+    border: 5px solid greenyellow;
+    overflow: auto;
+    /* overflow: hidden; */
+}
+#nav{
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background: rebeccapurple;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+#nav li a:hover{
+    background: chocolate;
+}
+#div{
+    background: darkcyan;
+    margin: 0 0 15px;
+    padding: 0;
+    list-style: none;
+}
+#div li{
+    display: inline-block;
+}
+#div li a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+}
+#div li a:hover{
+    background: crimson;
+}
