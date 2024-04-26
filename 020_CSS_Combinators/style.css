@@ -1,0 +1,24 @@
+p{
+    color: navy;
+}
+div p{
+    font-weight: bold;
+}
+div > p{
+    color: orangered;
+}
+div ~ p{
+    color: purple;
+}
+div + p{
+    color: green;
+}
+section ~ p{
+    color: chartreuse;
+}
+.parent p{
+    color: black;
+}
+.parent > p{
+    color: crimson;
+}
