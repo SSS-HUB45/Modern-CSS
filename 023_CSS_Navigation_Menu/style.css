@@ -1,0 +1,53 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+#main{
+    background: #2C3A47;
+}
+#main ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#main li{
+    display: inline-block;
+    position: relative;
+}
+#main li a{
+    display: block;
+    padding: 12px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+#main li a:hover{
+    background: #596275;
+}
+
+/* Dropdown Menu Style */
+#main ul ul{
+    position: absolute;
+    left: 0;
+    top: 43px;
+    background: #3c4861;
+    width: 200px;
+    display: none;
+    z-index: 999;
+}
+#main ul ul li{
+    display: block;
+}
+#main ul li:hover ul{
+    display: block;
+}
+#main ul li:hover a{
+    background: #596275;
+}
+#main ul li:hover li a{
+    background: #3c4861;
+    /* background: none; */
+}
+#main ul ul li a:hover {
+    background: #333d53;
+}
