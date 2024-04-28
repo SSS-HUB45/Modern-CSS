@@ -1,0 +1,57 @@
+body{
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+}
+.contact{
+    width: 80%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    padding: 5%;
+    text-align: center;
+}
+.contact h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.contact p{
+    color: rgb(17, 17, 17);
+}
+.contact form{
+    margin-top: 25px;
+}
+.my_form{
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.my_form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.my_form input, .my_form select, .my_form textarea{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 3%;
+    width: 94%;
+    font-family:'Poppins', sans-serif;
+}
+.my_form select{
+    width: 100%;
+}
+.my_form input[type='button']{
+    width: 200px;
+    background: blueviolet;
+    border: 1px solid blueviolet;
+    color: #fff;
+    cursor: pointer;
+}
+.my_form input[type='button']:hover{
+    width: 200px;
+    background: black;
+    border: 1px solid black;
+    color: #fff;
+}
+.my_form:last-child{
+    margin-bottom: 0px;
+}
