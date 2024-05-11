@@ -1,0 +1,22 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+#test p.part{
+    color: tomato;
+}
+#test p{
+    color: indigo;
+}
+.child p.part{
+    color: orangered;
+}
+.child .part{
+    color: blueviolet;
+}
+p.part{
+    color: blue;
+}
+p{
+    color: crimson;
+}

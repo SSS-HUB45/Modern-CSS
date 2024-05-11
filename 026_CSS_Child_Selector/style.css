@@ -1,0 +1,88 @@
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.parent{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.child{
+    background: #ff9f1a;
+    width: 50px;
+    padding-top: 10px;
+    height: 38px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    margin-right: 10px;
+}
+.child p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+/* nth child */
+/* .child:first-child{
+    background: #3c40c6;
+}
+.child:last-child{
+    background: #ff5e57;
+}
+.child:nth-child(4){
+    background: #ff793f;
+}
+.child:nth-last-child(2){
+    background: #706fd3;
+} */
+
+/* .child:nth-child(odd){
+    background: #3c40c6;
+} */
+/* .child:nth-child(even){
+    background: #3c40c6;
+} */
+/* .child:nth-child(n){
+    background: #3c40c6;
+} */
+/* .child:nth-child(n+4){
+    background: #3c40c6;
+} */
+/* .child:nth-child(2n+3){
+    background: #3c40c6;
+} */
+/* .child:nth-child(3n){
+    background: #3c40c6;
+} */
+.child:nth-child(4n+2){
+    background: #3c40c6;
+}
+
+/* Form Style */
+form{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+input[type='text']{
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    color: #000;
+    font-size: 14px;
+    border-radius: 5px;
+    float: left;
+}
+input[type='button']{
+    background: #4b6584;
+    border: 1px solid #4b6584;
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    transition: 0.3s;
+}
+input:not(:placeholder-shown) + input[type='button']{
+    display: block;
+}
