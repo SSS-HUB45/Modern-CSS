@@ -1,0 +1,38 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.test{
+    width: 350px;
+    height: 300px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+#one{
+    background: #27ae60;
+    padding: 50px;
+    border: 5px solid #222f3e;
+    box-sizing: content-box;
+}
+#two{
+    background: #6ab04c;
+    padding: 50px;
+    border: 5px solid #222f3e;
+    /* box-sizing: border-box; */
+}
+#learning{
+    box-sizing: border-box;
+}
+.child{
+    background: #2e86de;
+    padding: 25px 20px;
+    border: 5px solid #222f3e;
+    /* box-sizing: border-box; */
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 10px;
+}
