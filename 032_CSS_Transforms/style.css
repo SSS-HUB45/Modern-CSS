@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+.one{
+    background: #00a8ff;
+    border: 5px solid #40739e;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+.one:hover{
+    /* transform: translate(25px, 20px); */
+    /* transform: rotate(180deg); */
+    /* transform: scale(2, 4); */
+    /* transform: skew(25deg); */
+    transform: skewX(-25deg);
+}
